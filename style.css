@@ -115,9 +115,10 @@ h3{
     text-align: center;
 }
 
-.personal {
+.personal_farmacia {
     font-weight: bold;
 }
+
 
 p {
     font-size: 22px;
@@ -241,9 +242,8 @@ p {
 
 @media screen and (max-width: 490px) {
     .img_farmacia {
-        width: 375px;
-        align-items: center;
-        margin-left: 50px;
+        width: 370px;
+        margin: auto 10px;
     }
 }
 
@@ -259,21 +259,15 @@ p {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .personal {
-        margin: 25px 35px;
-    }
-}
-
 @media screen and (max-width: 770px) {
-    .personal {
-        margin: 25px 65px;
+    .personal_farmacia {
+        margin: 25px 0px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .card {
-        margin: 25px 85px;
+        margin: 25px 75px;
     }
 }
 
