@@ -1,0 +1,324 @@
+/*
+ID = #
+CLASS = .
+*/
+
+/* FORMATEO DE DOC */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+    font-family: "Open Sans";
+    /* border: 1px red solid; */
+}
+
+li {
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body {
+    max-width: 1920px;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ESTILOS NAVBAR/HEADER */
+#header {
+    width: 100%;
+    height: 100px;
+}
+
+.container-fluid {
+    background-color: #cbe8ba;
+}
+
+.navbar-brand {
+    height: 100px;
+}
+
+#navbarNav {
+   justify-content: end;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+/* ESTILOS MAIN */
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.img_farmacia {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.a_comerciales {
+    margin-top: 40px;   
+}
+
+#carouselExampleIndicators img{
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.img_aliados {
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_aliados2 {
+    height: auto;
+    margin-top: 10px;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.img_aliados img , .img_aliados2 img {
+    width: 200px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.texto_personal {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.personal {
+    font-weight: bold;
+}
+
+p {
+    font-size: 22px;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.card-text {
+    text-align: center;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.card {
+    margin: 25px 35px;
+    display: inline-block;
+    text-align: center;
+    background-color: #c9d6c2;
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #c9d6c2;
+    font-weight: bold;
+}
+
+/* CONTACTO FORM */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: 600px;
+    margin: 80px 10px;
+}
+
+.form_relleno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.form_relleno input {
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 80px;
+}
+
+.form_contenido{
+    display: flex;
+}
+
+/* ESTILOS FOOTER */
+
+#footer {
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cbe8ba;
+}
+
+.footer_logo img {
+    width: 100px;
+}
+
+.footer_redes {
+    display: flex;
+    gap: 15px;
+}
+  
+.footer_redes img {
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer_links li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #717070;
+}
+
+.footer_links :hover{
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_links li {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer_links li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .img_farmacia {
+        width: 375px;
+        align-items: center;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    h2 {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    h2 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .personal {
+        margin: 25px 35px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .personal {
+        margin: 25px 65px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        margin: 25px 85px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form_mapa {
+        width: 80px;
+        margin-right: 325px;
+    }
+    .form_contenido {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .form_relleno input {
+        height: 50px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 770px) {
+
+    #form{
+        margin: 0 auto;
+    }
+    .form_contenido {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .form_relleno input {
+        height: 50px;
+        width: 250px;
+    }
+    .btn{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .form_contenido {
+        margin-top: 100px;
+        align-items: center;
+    }
+    .form_relleno input {
+        height: 50px;
+        width: 250px;
+    }
+    .btn {
+        margin-top: 80px;
+    }
+}
