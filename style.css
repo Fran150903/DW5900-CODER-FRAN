@@ -303,9 +303,9 @@ p {
     }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 478px) {
     .form_contenido {
-        margin-top: 100px;
+        margin-top: 50px;
         align-items: center;
     }
     .form_relleno input {
@@ -313,6 +313,12 @@ p {
         width: 250px;
     }
     .btn {
-        margin-top: 80px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-inner {
+        height: 380px;
     }
 }
