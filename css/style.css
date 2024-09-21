@@ -140,9 +140,6 @@ Extra large	≥1200px
     flex-direction: column;
     text-align: center;
   }
-  .personal_farmacia {
-    margin: 25px 0px;
-  }
   #form {
     margin: 0 auto;
   }
