@@ -1,0 +1,35 @@
+/* ESTILOS FOOTER */
+
+#footer {
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cbe8ba;
+}
+
+.footer_logo img {
+    width: 100px;
+}
+
+.footer_redes {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_redes img {
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer_links li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #717070;
+}
+
+.footer_links :hover{
+    color: black;
+}

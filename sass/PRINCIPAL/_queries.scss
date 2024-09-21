@@ -1,0 +1,103 @@
+/*
+Small		<480px
+Medium		≥770px
+Large		≥992px
+Extra large	≥1200px
+*/
+
+
+@media screen and (max-width: 480px) {
+
+    /* RESPONSIVE DE FOOTER*/
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_links li {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    /* RESPONSIVE DE CARRUSEL (INDEX) */
+    .carousel-inner {
+        height: 380px;
+    }
+
+    /* RESPONSIVE DE SERVICIOS (SERVICIOS) */
+    #card__group-id {
+        display: flex;
+        text-align: center;
+    }
+
+    /* RESPONSIVE DE IMG FARMACIA Y H2 (ACERCA DE) */
+    .img_farmacia {
+        width: 370px;
+        margin: auto 10px;
+    }
+
+    h2 {
+        margin-top: 10px !important;
+    }
+
+    /* RESPONSIVE DE FORMULARIO DE CONTACTO (CONTACTO) */
+    .form_contenido {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .form_relleno input {
+        height: 35px !important;
+        width: 350px !important;
+        
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer_links li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .personal_farmacia {
+        margin: 25px 0px;
+    }
+
+    #form{
+        margin: 0 auto;
+    }
+    .form_contenido {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .form_relleno input {
+        height: 50px;
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    h2 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card-group {
+        flex-direction: column;
+    }
+
+    #main_productos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card__group {
+        margin: 20px auto !important;
+    }
+}
+
+
+

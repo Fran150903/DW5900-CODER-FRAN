@@ -1,0 +1,24 @@
+/* FORMATEO DE DOC */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+    font-family: "Open Sans";
+    /* border: 1px red solid; */
+}
+
+li {
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body {
+    max-width: 1920px;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+}
