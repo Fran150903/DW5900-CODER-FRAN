@@ -32,7 +32,7 @@ Extra large	≥1200px
 
     /* RESPONSIVE DE IMG FARMACIA Y H2 (ACERCA DE) */
     .img_farmacia {
-        width: 370px;
+        width: 100% !important;
     }
 
     h2 {
@@ -52,6 +52,12 @@ Extra large	≥1200px
 }
 
 @media screen and (max-width: 770px) {
+    /* RESPONSIVE DE IMG FARMACIA (ACERCA DE) */
+    .img_farmacia {
+    width: 100% !important;
+    }
+
+    /* RESPONSIVE FOOTER */
     .footer_links li {
         display: flex;
         flex-direction: column;
@@ -70,6 +76,13 @@ Extra large	≥1200px
     }
 }
 
+@media screen and (max-width: 992px){
+    /* RESPONSIVE DE FORMULARIO DE CONTACTO (CONTACTO) */
+    .form_contenido {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 1025px) {
     h2 {
