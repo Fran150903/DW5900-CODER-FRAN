@@ -13,6 +13,8 @@ CLASS = .
 /*BREAKPOINTS*/
 @import "PRINCIPAL/queries";
 
+@import "acerca-de/acercade";
+
 
 
 /* ESTILOS MAIN */
@@ -23,14 +25,14 @@ main{
 }
 
 /* INICIO (INDEX) */
-.a_comerciales {
-    margin-top: 40px;   
+
+.foto_inicio img {
+    width: 100%;
+    height: 550px;
 }
 
-#carouselExampleIndicators img{
-    width: 750px;
-    height: 600px;
-    margin: 0 auto;
+.a_comerciales {
+    margin-top: 40px;   
 }
 
 .img_aliados {
@@ -62,23 +64,9 @@ h2{
     margin: 20px auto;
 }
 
-/* IMG Y TEXTO (ACERCA DE) */
-.img_farmacia {
-    width: 400px;
-    height: 300px;
-    border-radius: 25px;
-    float: left;
-    padding: 10px;
-}
-
-p {
-    font-size: 22px;
-    padding: 10px !important;
-    text-align: justify;
-}
-
 /* PRODUCTOS */
 #main_productos {
+    display: flex;
     text-align: center;
 }
 
