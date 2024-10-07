@@ -132,6 +132,9 @@ Extra large	≥1200px
   .img_farmacia2, .img_farmacia3 {
     margin-top: 15px !important;
   }
+  .card_texto_acerca {
+    margin-top: 20px !important;
+  }
   h2 {
     margin-top: 10px !important;
   }
@@ -139,11 +142,23 @@ Extra large	≥1200px
   .form_contenido {
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 0px;
+  }
+  .form_relleno input {
+    height: 35px !important;
+    width: 5px !important;
   }
   .form_relleno input {
     height: 35px !important;
     width: 350px !important;
+  }
+  .form_relleno {
+    height: 350px !important;
+    width: 400px !important;
+  }
+  .btn {
+    width: 100px !important;
+    height: 40px;
+    margin-top: 10px !important;
   }
 }
 @media screen and (max-width: 770px) {
@@ -153,7 +168,6 @@ Extra large	≥1200px
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
-    padding: 15px;
   }
   .img_farmacia2, .img_farmacia3 {
     margin-top: 15px;
@@ -175,9 +189,8 @@ Extra large	≥1200px
     flex-direction: column-reverse;
     align-items: center;
   }
-  .form_relleno input {
-    height: 50px;
-    width: 250px;
+  .form_relleno {
+    width: 550px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -192,7 +205,6 @@ Extra large	≥1200px
     align-items: center;
     flex-direction: column;
     margin-bottom: 20px;
-    padding: 15px;
   }
   .img_farmacia2, .img_farmacia3 {
     margin-top: 15px;
@@ -209,10 +221,6 @@ Extra large	≥1200px
     flex-wrap: wrap;
     justify-content: center !important;
     margin-bottom: 20px;
-    padding: 15px;
-  }
-  .img_farmacia, .img_farmacia2, .img_farmacia3 {
-    padding: 15px;
   }
   /* RESPONSIVE DE PRODUCTOS (PRODUCTOS) */
   .card-group {
@@ -373,7 +381,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: 80%;
+  width: 50%;
+  height: 350px;
   padding: 10px;
 }
 
@@ -386,15 +395,14 @@ h3 {
 }
 
 .form_relleno input {
-  width: 500px;
+  width: 400px;
   height: 30px;
-  margin-top: 10px;
 }
 
 .btn {
   width: 150px;
   height: 40px;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .form_contenido {
