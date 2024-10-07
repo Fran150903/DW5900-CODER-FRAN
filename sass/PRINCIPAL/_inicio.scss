@@ -5,8 +5,11 @@
     height: 550px;
 }
 
-.a_comerciales {
-    margin-top: 40px;   
+.a_comerciales h2{
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .img_aliados {
@@ -28,11 +31,4 @@
 
 .img_aliados img , .img_aliados2 img {
     width: 200px;
-}
-
-h2{
-    font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-    margin: 20px auto;
 }

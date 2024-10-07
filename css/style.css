@@ -132,6 +132,9 @@ Extra large	≥1200px
   .img_farmacia2, .img_farmacia3 {
     margin-top: 15px !important;
   }
+  .img_farmacia, .img_farmacia2, .img_farmacia3 {
+    width: 100% !important;
+  }
   .card_texto_acerca {
     margin-top: 20px !important;
   }
@@ -139,6 +142,12 @@ Extra large	≥1200px
     margin-top: 10px !important;
   }
   /* RESPONSIVE DE FORMULARIO DE CONTACTO (CONTACTO) */
+  #form {
+    padding: 20px !important;
+  }
+  .form_mapa {
+    padding: 5px !important;
+  }
   .form_contenido {
     flex-direction: column-reverse;
     align-items: center;
@@ -266,6 +275,13 @@ p {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.title_acercade h2 {
+  margin-top: 40px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .card_texto_acerca {
   margin-top: 75px;
   font-weight: 500;
@@ -286,8 +302,11 @@ p {
   height: 550px;
 }
 
-.a_comerciales {
+.a_comerciales h2 {
   margin-top: 40px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .img_aliados {
@@ -309,13 +328,6 @@ p {
 
 .img_aliados img, .img_aliados2 img {
   width: 200px;
-}
-
-h2 {
-  font-size: 35px;
-  text-align: center;
-  font-weight: bold;
-  margin: 20px auto;
 }
 
 /* ESTILOS SERVICIOS */
@@ -407,6 +419,14 @@ h3 {
 
 .form_contenido {
   display: flex;
+}
+
+.title_contacto h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
 }
 
 h4 {

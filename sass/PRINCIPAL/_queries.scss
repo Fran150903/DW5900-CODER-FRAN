@@ -42,6 +42,10 @@ Extra large	≥1200px
     margin-top: 15px !important;
 }
 
+.img_farmacia, .img_farmacia2, .img_farmacia3 {
+    width: 100% !important;
+}
+
 .card_texto_acerca {
     margin-top: 20px !important;
 }
@@ -51,6 +55,14 @@ h2 {
 }
 
 /* RESPONSIVE DE FORMULARIO DE CONTACTO (CONTACTO) */
+#form {
+    padding: 20px !important;
+}
+
+.form_mapa {
+    padding: 5px !important;
+}
+
 .form_contenido {
     flex-direction: column-reverse;
     align-items: center;
