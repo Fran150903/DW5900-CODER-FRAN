@@ -1,0 +1,19 @@
+/* PRODUCTOS */
+#main_productos {
+    display: flex;
+    text-align: center;
+}
+
+.btn {
+    background-color: #c9d6c2;
+    font-weight: bold;
+}
+
+/* ALINEACION DE CARD PRODUCTOS Y SERVICIOS */
+.card {
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #cbe8ba;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}

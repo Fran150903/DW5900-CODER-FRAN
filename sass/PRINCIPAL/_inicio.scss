@@ -1,0 +1,38 @@
+/* INICIO (INDEX) */
+
+.foto_inicio img {
+    width: 100%;
+    height: 550px;
+}
+
+.a_comerciales {
+    margin-top: 40px;   
+}
+
+.img_aliados {
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_aliados2 {
+    height: auto;
+    margin-top: 10px;
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_aliados img , .img_aliados2 img {
+    width: 200px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
